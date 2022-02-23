@@ -1,0 +1,77 @@
+# Site settings
+# These are used to personalize your site. You access them via {{ site.title }}, 
+# {{ site.email }} and so on. You can create any custom variable you like. They
+# will be accessible in the templates via {{ site.myvariable }}.
+
+title: License
+email: info@getlicensekit.com
+description: >-
+  LicenseKit helps you protect your Swift-based apps and libraries with a commercial license.
+
+baseurl: ""
+url: "http://getlicensekit.com"
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+google_analytics: UA-2575180-1
+
+copyright: © 2022 Daniel Saidi. All rights reserved.
+github: https://github.com/LicenseKit
+github_repo: https://github.com/LicenseKit/LicenseKit
+github_username: LicenseKit
+twitter_url: https://twitter.com/getlicensekit
+twitter_username: getlicensekit
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+header_pages:
+  - index.html
+  - pages/licenses.md
+  - pages/blog.md
+
+collections_dir: collections
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:categories/:year/:month/:day/:title
+  sponsors:
+    output: true
+    permalink: /sponsor/:name/
+
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      hero: ""
+  -
+    scope:
+      type: "posts"
+    values:
+      author: "danielsaidi"
+      layout: "post"
+      hero:   "none"
+  -
+    scope:
+      type: "sponsors"
+    values:
+      layout: "sponsor"
+
+include:
+  - .well-known/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

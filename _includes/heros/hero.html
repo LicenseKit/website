@@ -1,0 +1,16 @@
+{% if page.hero != "none" %}
+<section>
+    <div class="hero {{ page.hero }}">
+        <div class="wrapper">
+            {% if page.hero == "home" %}
+                {% include heros/home.html %}
+            {% elsif page.hero == "licenses" %}
+                {% include heros/licenses.html %}
+            {% endif %}
+        </div>
+        <div class="hero-line"></div>
+    </div>
+</section>
+{% else %}
+<div style="padding-top: 70px"></div>
+{% endif %}
