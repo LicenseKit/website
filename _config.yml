@@ -25,6 +25,7 @@ github_repo: https://github.com/LicenseKit/LicenseKit
 github_username: LicenseKit
 twitter_url: https://twitter.com/getlicensekit
 twitter_username: getlicensekit
+gumroad: https://danielsaidi.gumroad.com
 
 plugins:
   - jekyll-feed
