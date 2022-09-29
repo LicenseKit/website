@@ -23,9 +23,9 @@ copyright: © 2022 Daniel Saidi. All rights reserved.
 github: https://github.com/LicenseKit
 github_repo: https://github.com/LicenseKit/LicenseKit
 github_username: LicenseKit
+gumroad: https://danielsaidi.gumroad.com
 twitter_url: https://twitter.com/getlicensekit
 twitter_username: getlicensekit
-gumroad: https://danielsaidi.gumroad.com
 
 plugins:
   - jekyll-feed
