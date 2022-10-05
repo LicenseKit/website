@@ -45,6 +45,20 @@
     }
   }
 
+  .license.basic {
+    border: solid 2px lightgray;
+  }
+
+  .license.silver {
+    border: solid 2px lightgray;
+    background-color: #00000008;
+  }
+
+  .license.gold {
+    border: solid 2px gold;
+    background-color: rgba(255, 215, 0, 0.2);
+  }
+
   .license + div {
     margin-top: 20px;
   }
@@ -56,10 +70,6 @@
   }
 
   .grid.licenses { 
-    grid-template-columns: repeat(2, 1fr);
-    .license {
-      margin-left: 30px;
-      max-width: 300px;
-    }
+    grid-template-columns: repeat(1, 1fr);
   }
 }

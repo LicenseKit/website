@@ -44,7 +44,6 @@ html, body {
   }
 }
 
-
 .site-header, .site-footer {
   border: 0 !important;
   padding: 30px 0;
@@ -53,6 +52,13 @@ html, body {
     font-size: 0.9em;
     text-decoration: none;
   }
+}
+
+
+article h2 {
+
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
 }
 
 

@@ -1,6 +1,6 @@
 <section class="grid licenses">
   <div>
-    <div class="license">
+    <div class="license basic">
       <h3>Basic</h3>
       <div class="features">
         <p>✔&nbsp; 1 App/Library</p>
@@ -9,12 +9,14 @@
         <p>✗&nbsp; Remote License Engine</p>
         <p>✗&nbsp; Multi-platform support</p>
       </div>
-      <h4>$100/year</h4>
+      <h4>
+        <a href="{{site.gumroad-basic}}">$100/year</a>
+      </h4>
     </div>
-    {% include gumroad.html product="licensekit-basic" %}
+    {% include gumroad-button.html product="licensekit-basic" %}
   </div>
   <div>
-    <div class="license">
+    <div class="license gold">
       <h3>Gold</h3>
       <div class="features">
         <p>✔&nbsp; 1 App/Library</p>
@@ -23,8 +25,10 @@
         <p>✔&nbsp; Remote License Engine</p>
         <p>✔&nbsp; Multi-platform support</p>
       </div>
-      <h4>$1000/year</h4>
+      <h4>
+        <a href="{{site.gumroad-gold}}">$1000/year</a>
+      </h4>
     </div>
-    {% include gumroad.html product="licensekit-gold" %}
+    {% include gumroad-button.html product="licensekit-gold" omit-script=true %}
   </div>
 </section>
