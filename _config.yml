@@ -8,18 +8,12 @@ email: info@getlicensekit.com
 description: >-
   LicenseKit helps you protect your Swift-based apps and libraries with a commercial license.
 
-baseurl: ""
-url: "http://getlicensekit.com"
-theme: minima
+url: http://getlicensekit.com
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+copyright_year: 2022
+copyright_owner: Kankoda Sweden AB
+copyright_url: https://kankoda.com
 
-google_analytics: UA-2575180-1
-
-copyright: © 2022 Daniel Saidi. All rights reserved.
 github: https://github.com/LicenseKit
 github_repo: https://github.com/LicenseKit/LicenseKit
 github_username: LicenseKit
@@ -29,13 +23,17 @@ gumroad-gold: https://danielsaidi.gumroad.com/l/licensekit-gold
 twitter_url: https://twitter.com/getlicensekit
 twitter_username: getlicensekit
 
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+assets: /assets/
+header_icon: /assets/icon/icon-1024.png
+header_icon_type: icon
 
 header_pages:
   - index.html
   - pages/licenses.md
+  - pages/blog.md
+
+footer_pages_sitemap:
+  - index.html
   - pages/blog.md
 
 collections_dir: collections
@@ -47,6 +45,16 @@ collections:
   sponsors:
     output: true
     permalink: /sponsor/:name/
+
+baseurl: ""
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
 
 defaults:
   -
