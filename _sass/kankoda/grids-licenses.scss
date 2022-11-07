@@ -1,34 +1,14 @@
-.grid { 
-  display: grid; 
-  grid-column-gap: 20px;
-  grid-row-gap: 50px;
-  grid-template-columns: repeat(4, 1fr);
-
-  p {
-    margin: 20px 0 0 0;
-  }
-}
-
-.grid.customers {
-  grid-template-columns: repeat(6, 1fr);
-
-  img { 
-    max-width: 100px; 
-    object-fit: cover;
-  }
-}
-
 .grid.licenses {
 
   margin: 40px 0;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
 
   .license {
-    background-color: $box;
+    background-color: #f0f0f0;
+    border: solid 2px lightgray;
     border-radius: 7px;
     padding: 20px 10px;
-    box-shadow: 0px 2px 0px #0004;
     
     h2, h3 { margin-top: 0px; }
     h4 { margin: 20px 0 0 0; }
@@ -45,15 +25,6 @@
     }
   }
 
-  .license.basic {
-    border: solid 2px lightgray;
-  }
-
-  .license.silver {
-    border: solid 2px lightgray;
-    background-color: #00000008;
-  }
-
   .license.gold {
     border: solid 2px gold;
     background-color: rgba(255, 215, 0, 0.2);
@@ -65,9 +36,6 @@
 }
 
 @media (max-width: 800px) {
-  .grid.customers {
-    grid-template-columns: repeat(3, 1fr);
-  }
 
   .grid.licenses { 
     grid-template-columns: repeat(1, 1fr);

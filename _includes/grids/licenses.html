@@ -1,4 +1,17 @@
+{% include kankoda/gumroad/script.html %}
 <section class="grid licenses">
+  <div>
+    <div class="license free">
+      <h3>Free</h3>
+      <div class="features">
+        <p>✔&nbsp; License key "FREE"</p>
+        <p>✔&nbsp; 10 Local Licenses OR</p>
+        <p>✔&nbsp; 10 File Licenses</p>
+        <p>✗&nbsp; Remote Licenses</p>
+      </div>
+      <h4>&nbsp;</h4>
+    </div>
+  </div>
   <div>
     <div class="license basic">
       <h3>Basic</h3>
@@ -12,7 +25,7 @@
         <a href="{{site.gumroad-basic}}">$100/year</a>
       </h4>
     </div>
-    {% include gumroad-button.html product="licensekit-basic" %}
+    {% include kankoda/gumroad/button.html product="licensekit-basic" %}
   </div>
   <div>
     <div class="license gold">
@@ -27,6 +40,6 @@
         <a href="{{site.gumroad-gold}}">$1000/year</a>
       </h4>
     </div>
-    {% include gumroad-button.html product="licensekit-gold" omit-script=true %}
+    {% include kankoda/gumroad/button.html product="licensekit-gold" omit-script=true %}
   </div>
 </section>

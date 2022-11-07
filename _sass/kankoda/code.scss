@@ -1,10 +1,10 @@
 .highlighter-rouge {
   border: 0;
-  background: #123 !important;
+  background: $code-background !important;
   
   .highlight {
     border: 0;
-    background: #123 !important;
+    background: $code-background !important;
   }
 
   code {

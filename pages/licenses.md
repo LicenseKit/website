@@ -10,9 +10,11 @@ description: LicenseKit requires a commercial license to be used.
 
 ## Licenses
 
-LicenseKit requires a commercial license. There are two tiers to choose from - Basic and Gold:
+LicenseKit requires a commercial license to unlock support for more licenses and more powerful features. There is one free and two paid tiers to choose from:
 
 {% include grids/licenses.html %}
+
+The **Free** tier lets you try out LicenseKit in any app or library. Just use the license key **"FREE"** when you set up LicenseKit, and you will get a free trial version that you can use forever.
 
 The **Basic** tier is perfect for smaller project with few users, while the **Gold** tier is perfect for larger, commercial projects with many users.
 

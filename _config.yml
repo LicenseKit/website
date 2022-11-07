@@ -9,13 +9,14 @@ description: >-
   LicenseKit helps you protect your Swift-based apps and libraries with a commercial license.
 
 url: http://getlicensekit.com
+is_lib: 1
 
 copyright_year: 2022
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-github: https://github.com/LicenseKit
-github_repo: https://github.com/LicenseKit/LicenseKit
+documentation_url: https://licensekit.github.io/LicenseKit/documentation/licensekit/
+github_url: https://github.com/LicenseKit/LicenseKit
 github_username: LicenseKit
 gumroad: https://danielsaidi.gumroad.com
 gumroad-basic: https://danielsaidi.gumroad.com/l/licensekit-basic
@@ -34,6 +35,7 @@ header_pages:
 
 footer_pages_sitemap:
   - index.html
+  - pages/licenses.md
   - pages/blog.md
 
 collections_dir: collections
@@ -68,7 +70,7 @@ defaults:
     values:
       author: "danielsaidi"
       layout: "post"
-      hero:   "none"
+      hero:   ""
   -
     scope:
       type: "sponsors"

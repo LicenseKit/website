@@ -1,0 +1,32 @@
+.tag, .tag:visited {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px 10px 4px 10px;
+  border-radius: 100px;
+  background-color: $tag-background;
+  border: $tag-border;
+  color: $tag-foreground !important;
+}
+
+.tag:hover {
+  background-color: $tag-hover;
+  color: $tag-foreground;
+}
+
+section.tag-list {
+  margin-left: -8px;
+}
+
+.blog {
+  .post-header {
+    .tags {
+      margin-left: -8px;
+      margin-bottom: 10px;
+      font-size: smaller; 
+
+      .tag {
+        font-weight: normal;
+      }
+    }
+  }
+}
