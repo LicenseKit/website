@@ -1,8 +1,8 @@
 .tag, .tag:visited {
   display: inline-block;
   margin-right: 5px;
-  padding: 3px 10px 4px 10px;
-  border-radius: 100px;
+  padding: 1px 7px 2px 7px;
+  border-radius: 5px;
   background-color: $tag-background;
   border: $tag-border;
   color: $tag-foreground !important;
@@ -18,15 +18,25 @@ section.tag-list {
 }
 
 .blog {
+  
   .post-header {
-    .tags {
-      margin-left: -8px;
-      margin-bottom: 10px;
-      font-size: smaller; 
+    margin-top: 5px;
+    margin-bottom: 20px;
 
-      .tag {
-        font-weight: normal;
-      }
+    .spacer {
+      margin: 5px;
     }
+
+    .tag {
+      font-size: smaller; 
+      font-weight: normal;
+    }
+  }
+}
+
+.blog.list {
+  
+  .post-header {
+    margin-top: -10px;
   }
 }

@@ -1,10 +1,7 @@
 {%- assign post = include.post -%}
 
 <div class="post-header">
-  <div class="tags">
-      {%- include kankoda/blog/post-tags.html post=post -%}
-  </div>
-  <span class="date">
-    {%- include kankoda/blog/post-date.html date=post.date -%}
-  </span>
+  {%- include kankoda/blog/post-date.html date=post.date -%}
+  <span class="spacer"></span>
+  {%- include kankoda/blog/post-tags.html post=post -%}
 </div>

@@ -5,8 +5,8 @@ layout: default
 <article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   
   <h1>
-    {%- include kankoda/blog/post-header.html post=page -%}
     {{ page.title | escape }}
+    {%- include kankoda/blog/post-header.html post=page -%}
   </h1>
   <div class="e-content" itemprop="articleBody">
     {{ content }}
