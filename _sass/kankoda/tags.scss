@@ -6,6 +6,7 @@
   background-color: $tag-background;
   border: $tag-border;
   color: $tag-foreground !important;
+  font-weight: normal;
 }
 
 .tag:hover {
@@ -13,8 +14,26 @@
   color: $tag-foreground;
 }
 
+.tag.releases {
+  color: black !important;
+  background-color: #ffcc00;
+}
+
+.tag.swift {
+  background-color: $swift-color;
+}
+
+.tag.swiftui {
+  background-color: $swiftui-color;
+}
+
 section.tag-list {
-  margin-left: -8px;
+  margin-left: -4px;
+  
+  .tag {
+    font-size: small; 
+    margin-bottom: 5px;
+  }
 }
 
 .blog {

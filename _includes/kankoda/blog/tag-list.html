@@ -22,7 +22,7 @@
     {% assign count = posts | size %}
     {% assign size = 1 | times: count %}
     {% assign font-size = count | times: 0.02 | plus: 1 %}
-    <a class="tag" href="javascript:showTag('{{ name | slugify }}')" style="font-size: '{{ font-size }}em';">
+    <a class="tag {{ name | slugify }}" href="javascript:showTag('{{ name | slugify }}')" style="font-size: '{{ font-size }}em';">
       {{name}}
     </a>
   {% endfor %}
