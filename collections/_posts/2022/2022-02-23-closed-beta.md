@@ -3,7 +3,7 @@ title:  Say hello to LicenseKit!
 date:   2022-02-23 08:00:00 +0100
 tags:   general
 
-image:  /assets/blog/image-icon.png
+image:  /assets/headers/icon.png
 ---
 
 After a period of internal tests, LicenseKit is now available as closed beta. This post explains how to join the closed beta program.
