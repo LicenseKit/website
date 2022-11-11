@@ -9,6 +9,7 @@ description: >-
   LicenseKit helps you protect your Swift-based apps and libraries with a commercial license.
 
 url: http://getlicensekit.com
+rss_url: https://getlicensekit.com/feed.xml
 is_lib: 1
 
 copyright_year: 2022
@@ -33,7 +34,7 @@ header_pages:
   - pages/licenses.md
   - pages/blog.md
 
-footer_pages_sitemap:
+footer_sitemap:
   - index.html
   - pages/licenses.md
   - pages/blog.md
@@ -76,9 +77,6 @@ defaults:
       type: "sponsors"
     values:
       layout: "sponsor"
-
-include:
-  - .well-known/
 
 exclude:
   - Gemfile
