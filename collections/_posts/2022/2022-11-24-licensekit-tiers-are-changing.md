@@ -5,6 +5,8 @@ tags:   licenses
 
 image:  /assets/headers/icon.png
 
+tweet: https://twitter.com/GetLicenseKit/status/1595785857541210112?s=20&t=qzaoMdQreIfWX-KJaoohtQ
+
 tiers:  /licenses
 ---
 
@@ -14,7 +16,7 @@ The current [tier model]({{page.tiers}}) only contains two tiers - Basic and Gol
 
 Starting from next year, the [Basic]({{page.tiers}}) tier will be price adjusted to $500, while the [Gold]({{page.tiers}}) tier will stay as is. There will also be a new [Silver]({{page.tiers}}) tier that will be priced between Basic and Gold.
 
-Since LicenseKit is still in early beta, you now have the chance to sign up for a forever cheap [Basic]({{page.tiers}}) license. If you sign up for just [$100]({{page.tiers}}) before the end of the year, you will keep that price forever!
+Since LicenseKit is still in early beta, you now have the chance to sign up for a forever cheap [Basic]({{page.tiers}}) license. If you sign up for just [$100]({{page.tiers}}) before the end of the year, you will keep that price forever, including the current number of licenses if it changes in the future, or the new number if increases.
 
 To join the forever cheap license program, just buy a [Basic]({{page.tiers}}) license from the [license page]({{page.tiers}}). It will then be tagged as forever cheap, which means that you will just pay $100 every time you renew it.
 

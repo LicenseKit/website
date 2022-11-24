@@ -1,7 +1,6 @@
 ---
 title:  Say hello to LicenseKit!
 date:   2022-02-23 08:00:00 +0100
-tags:   general
 
 image:  /assets/headers/icon.png
 ---
