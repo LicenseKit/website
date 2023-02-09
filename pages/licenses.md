@@ -2,26 +2,25 @@
 layout: page
 title: Licenses
 permalink: /licenses
-hero: licenses
 
 description: LicenseKit requires a commercial license to be used.
 ---
 
 
-## Licenses
+# Licenses
 
-LicenseKit is free to use for up to 10 local or file-based licenses. It then requires a commercial license to unlock support for more licenses and more powerful features. 
+LicenseKit is free to use for up to 10 code- or file-based licenses. It then requires a license to unlock handling more licenses and more powerful features. 
 
-There is one free and two paid tiers to choose from:
+There is a trial version and two paid tiers to choose from:
 
 {% include grids/licenses.html %}
 
-The **Free** tier lets you try out LicenseKit in any app or library. Just use the license key **"FREE"** when you set up LicenseKit, and you will get a free trial version that you can use forever.
+The trial version lets you try out LicenseKit in any app or library. Just use the license key **"FREE"** to unlock a trial version that you can use with a limited set of licenses.
 
-The **Basic** tier is perfect for smaller project with few users, while the **Gold** tier is perfect for larger, commercial projects with many users.
+The **Basic** tier is a good fit for smaller projects, while the **Gold** tier is perfect for products with many customers. Please [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) if you need paid support, help getting things set up etc.
 
 Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or using your preferred method of payment (Paypal, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=LicenseKit%20License) and we'll discuss your needs.
 
-Licenses are valid for **one app/library** and for **one year**. After your license expires, you have to extend your license or purchase a new one to keep using LicenseKit.
+Licenses are valid for **one app/library** and **one year**. After your license expires, you have to renew it to keep using LicenseKit.
 
 LicenseKit supports **iOS**, **iPadOS**, **tvOS**, **watchOS** and **macOS**.
