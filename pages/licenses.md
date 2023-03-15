@@ -13,7 +13,7 @@ LicenseKit is free to use for up to 10 code- or file-based licenses. Just use th
 
 {% include grids/licenses.html %}
 
-You can hover tiers and features for more information. [Contact us for Enterprise needs](mailto:{{site.email}}?subject=LicenseKit%20Enterprise) if your company have more than 10 employess or $1M in annual revenue.
+You can hover tiers and features for more information. [Contact us for Enterprise needs](mailto:{{site.email}}?subject=LicenseKit%20Enterprise) if your company have more than 10 employess or $1M in annual proceeds.
 
 Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or [over e-mail](mailto:{{site.email}}?subject=LicenseKit%20License) using your preferred payment method. You can add your company information and VAT number when purchasing.
 
