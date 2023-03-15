@@ -1,51 +1,103 @@
 {% include kankoda/gumroad/script.html %}
-<section class="grid licenses">
-  <div>
-    <div class="license free">
-      <h3>Trial</h3>
-      <div class="features">
-        <p>✔&nbsp; License key "FREE"</p>
-        <p>✔&nbsp; 10 Code-based Licenses</p>
-        <p>✔&nbsp; OR 10 File-based Licenses</p>
-        <p>✗&nbsp; &nbsp;Remote Licenses</p>
-        <p>✗&nbsp; &nbsp;Cached Licenses</p>
-        <p>✗&nbsp; &nbsp;Service Proxying</p>
-      </div>
-      <h4>&nbsp;</h4>
+
+<section class="license-table">
+
+  <div class="grid table-header">
+    <div class="feature"></div>
+    <div class="basic" title="The Indie tier is aimed at solo developers who build products with little revenue.">
+      <h3>Indie</h3>
+      <p>$500 / year</p>
+    </div>
+    <div class="silver" title="The Startup tier is aimed at newly started companies with little revenue.">
+      <h3>Startup</h3>
+      <p>$1,500 / year</p>
+    </div>
+    <div class="gold" title="The Business tier is aimed at small businesses with up to 10 employees and $1M USD in annual revenue.">
+      <h3>Business</h3>
+      <p>$5,000 / year</p>
     </div>
   </div>
-  <div>
-    <div class="license basic">
-      <h3>Basic</h3>
-      <div class="features">
-        <p>✔&nbsp; 1 App/Library</p>
-        <p>✔&nbsp; 100 Code-based Licenses</p>
-        <p>✔&nbsp; OR 100 File-based Licenses</p>
-        <p>✗&nbsp; &nbsp;Remote Licenses</p>
-        <p>✗&nbsp; &nbsp;Cached Licenses</p>
-        <p>✗&nbsp; &nbsp;Service Proxying</p>
-      </div>
-      <h4>
-        <a href="{{site.gumroad_url_basic}}">$500/year</a>
-      </h4>
-    </div>
-    {% include kankoda/gumroad/button.html product="licensekit-basic" %}
+
+  <div class="table-section-header">Works offline</div>
+  <div class="grid" title="LicenseKit works offline, except remote and api-based features that require a network connection.">
+    <div class="feature">Works offline</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
   </div>
-  <div>
-    <div class="license gold">
-      <h3>Gold</h3>
-      <div class="features">
-        <p>✔&nbsp; 1 App/Library</p>
-        <p>✔&nbsp; Unlimited Code-based Licenses</p>
-        <p>✔&nbsp; Unlimited File-based Licenses</p>
-        <p>✔&nbsp; Unlimited Remote Licenses</p>
-        <p>✔&nbsp; Cached Licenses</p>
-        <p>✔&nbsp; Service Proxying</p>
-      </div>
-      <h4>
-        <a href="{{site.gumroad_url_gold}}">$1000/year</a>
-      </h4>
-    </div>
-    {% include kankoda/gumroad/button.html product="licensekit-gold" %}
+
+  <hr />
+
+  <div class="table-section-header">Code-based licenses</div>
+  <div class="grid" title="LicenseKit can be used to define licenses with code.">
+    <div class="feature">Code-based licenses</div>
+    <div>100</div>
+    <div>1,000</div>
+    <div>Unlimited</div>
+  </div>
+
+  <div class="table-section-header even">File-based licenses</div>
+  <div class="grid" title="LicenseKit can be used to read and parse licenses from file.">
+    <div class="feature">File-based licenses</div>
+    <div>(or) 100</div>
+    <div>(or) 1,000</div>
+    <div>Unlimited</div>
+  </div>
+
+  <div class="table-section-header">Remote licenses</div>
+  <div class="grid" title="LicenseKit can be used to fetch remote licenses from exteral APIs or services.">
+    <div class="feature">Remote licenses</div>
+    <div>-</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header even">Cached licenses</div>
+  <div class="grid" title="LicenseKit can cache the last successful license validation and use it while offline.">
+    <div class="feature">Cached licenses</div>
+    <div>-</div>
+    <div>-</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header">Service proxying</div>
+  <div class="grid" title="LicenseKit lets you combine multiple license services, for instance to both read local files and communicate with an external API.">
+    <div class="feature">Service proxying</div>
+    <div>-</div>
+    <div>-</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header">Onboarding call</div>
+  <div class="grid" title="The Business tier includes and optional onboarding call to help you get started with LicenseKit.">
+    <div class="feature">Onboarding call</div>
+    <div>-</div>
+    <div>-</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header even">Support</div>
+  <div class="grid" title="The Indie tier is limited to support via GitHub issues, while the Startup tier includes support over e-mail and the Business tier includes prioritized support with possibility to discuss things over video.">
+    <div class="feature">Support</div>
+    <div>GitHub Issues</div>
+    <div>Email</div>
+    <div>Priority / Video</div>
+  </div>
+
+  <div class="table-section-header">Marketing use-case</div>
+  <div class="grid" title="The Indie and Startup tiers allow LicenseKit to feature your company and produc in marketing e-mails, blog posts etc.">
+    <div class="feature">Marketing use-case</div>
+    <div>Yes</div>
+    <div>Yes</div>
+    <div>Optional</div>
+  </div>
+
+  <hr />
+
+  <div class="grid">
+    <div class="feature"></div>
+    <div>{% include kankoda/gumroad/button.html product="licensekit-indie" %}</div>
+    <div>{% include kankoda/gumroad/button.html product="licensekit-startup" %}</div>
+    <div>{% include kankoda/gumroad/button.html product="licensekit-business" %}</div>
   </div>
 </section>

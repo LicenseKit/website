@@ -1,43 +1,107 @@
-.grid.licenses {
+.license-table {
 
-  margin: 40px 0;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  padding: 30px 0;
 
-  .license {
-    background-color: #f0f0f0;
-    border: solid 2px lightgray;
-    border-radius: 7px;
-    padding: 20px 10px;
-    
-    h2, h3 { margin-top: 0px; }
-    h4 { margin: 20px 0 0 0; }
+  .grid {
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
 
-    .features {
-      padding: 0 10px;
-      text-align: left;
-      box-shadow: none;
+    > div.feature { 
+      justify-content: left;
+      font-size: small;
+      font-weight: bold;
+    }
 
-      p {
-        margin: 5px 0;
-        font-size: 0.8em;
+    > div {
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .gumroad-button {
+      span.logo-full {
+        display: none;
       }
     }
   }
 
-  .license.gold {
+  div.basic, div.indie {
+    border: solid 2px #ccc;
+  }
+
+  div.silver, div.startup {
+    background-color: #f7f7f7;
+    border: solid 2px #d5d5d5;
+  }
+
+  div.gold, div.business {
     border: solid 2px gold;
     background-color: rgba(255, 215, 0, 0.2);
   }
 
-  .license + div {
-    margin-top: 20px;
+  .table-header {
+
+    > div {
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;
+    }
+
+    .trial {
+      background-color: white;
+      margin-top: 12px;
+      padding: 5px 20px;
+      border-radius: 16px;
+      font-size: small;
+      box-shadow: #00000011 0px 1px 2px 0px;
+    }
+
+    div.basic .trial {
+      background-color: #f5f5f5;
+      box-shadow: none;
+    }
+
+    .trial:hover {
+      box-shadow: #00000011 0px 2px 4px 0px;
+    }
+
+    h3, p {
+      margin: 0;
+    }
+  }
+
+  .table-section-header {
+    display: none;
+    padding: 5px 5px 0px 5px;
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .even, .even + .grid {
+    background-color: #f7f7f7;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
-  .grid.licenses { 
-    grid-template-columns: repeat(1, 1fr);
+  .license-table {
+
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+
+
+      .feature {
+        display: none;
+        background-color: red;
+      }
+    }
+
+    .table-section-header { 
+      display: inherit;
+    }
   }
 }
