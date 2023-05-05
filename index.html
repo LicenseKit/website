@@ -1,75 +1,56 @@
 ---
-layout: default
+id: home
 title:  Home
-hero:   home
+layout: default
 
 image:  /assets/headers/logo.png
+
+hero: /assets/devices.png
+hero-title: Welcome to LicenseKit!
+
+description: LicenseKit helps you protect your libraries and apps with commercial licenses.
 ---
 
-<div class="home">
-  <main class="page-content" aria-label="Content">
+<div class="home-content paper">
+  <p>
+    LicenseKit is a Swift-based SDK that can be used to protect your software with commercial licenses. It supports all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS) and can validate licenses on-device as well as remotely.
+  </p>
 
-    <p>
-      LicenseKit is a Swift-based SDK that can be used to protect your libraries and apps with commercial licenses. It supports all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS) and can be used to validate licenses locally on-device as well as remotely.
-    </p>
+  <p>
+    LicenseKit is <a href="/pricing">free</a> to start and <a href="/pricing">affordable</a> to scale for both indies, startups and enterprises. Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help getting started.
+  </p>
 
-    <section class="strikethrough-sections">
+  <section>
+    <h2>Explore</h2>
 
-      <section class="features">
-        <h2>Features</h2>
-        <span class="emoji-h2">✨</span>
-        <p>
-          LicenseKit supports validating licenses <b>locally</b> on device, as well as <b>remotely</b> from any external api. Licenses can specify expiration date, supported platforms, valid bundle IDs, custom features etc.
-        </p>
-        <p>
-          <a href="{{site.github_url}}">Read more</a>
-        </p>
-      </section>
+    <div class="grid features">
+      {% for feature in site.data.home-features %}
+      {%- if feature.hidden -%}
+      {%- else -%}
+      <a href="{{ feature.url }}">
+        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
+      </a>
+      {%- endif -%}
+      {% endfor %}
+    </div>
+  </section>
 
-      <section class="github">
-        <h2>Project</h2>
-        <img src="/assets/github.png" alt="GitHub logo" title="GitHub" width="100" style="margin-top:20px;" />
-        <p>
-          The LicenseKit project is hosted at GitHub, which is where you find information, documentation, sample code, demo apps etc. 
-        </p>
-        <p>
-          <a href="{{site.github_url}}">Visit the project site</a>
-        </p>
-      </section>
-
-      <section class="licenses">
-        <h2>Licenses</h2>
-        <span class="emoji-h2">🔑</span>
-        <p>
-          LicenseKit requires a commercial license to be used. You can purchase a license from this site or from the Gumroad e-shop</a>.
-        </p>
-        <p>
-          <a href="/licenses">Read more about licenses</a>
-        </p>
-      </section>
-
-      <section class="features">
-        <h2>Blog</h2>
-        <span class="emoji-h2">📝</span>
-        <p>
-          The LicenseKit blog will be updated whenever anything new is released or when there is important new information.
-        </p>
-        <p>
-          <a href="/blog">Visit the blog</a>
-        </p>
-      </section>
-
-      <section class="contact">
-        <h2>Contact</h2>
-        <span class="emoji-h2">✉️</span>
-        <p>
-          Don't hesistate to reach out if you have any questions or feedback or just want to get in touch.
-        </p>
-        <p>
-          <a href="mailto:{{site.email}}?subject=LicenseKit">E-mail</a> · 
-          <a href="{{site.twitter_url}}">Twitter</a>
-        </p>
-      </section>
-    </section>
-  </main>
+  <section>
+    <h2>Latest news</h2>
+    <div>
+      <a href="/blog">Blog</a> ·
+      <a href="{{ site.twitter_url }}">Twitter</a> ·
+      <a href="{{ site.mastodon_url }}">Mastodon</a>
+    </div>
+    <p></p>
+    <div class="grid blog list">
+      {% for post in site.posts limit:2 %}
+          <div>
+            {% include kankoda/blog/post-list-item.html post=posts.first %}
+          </div>
+      {% endfor %}
+    </div>
+  </section>
 </div>

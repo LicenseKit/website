@@ -1,0 +1,29 @@
+- title: About
+  url: /about
+  image: /assets/heros/icon.png
+  text: What are software licenses and how can LicenseKit help?
+  
+- title: Code-based licenses
+  url:  /licenses/code
+  image: /assets/heros/code.png
+  text: LicenseKit lets you define licenses with source code.
+
+- title: File-based licenses
+  url:  /licenses/file
+  image: /assets/heros/file.png
+  text: LicenseKit lets you define licenses in plain text files.
+
+- title: Cloud-based licenses
+  url:  /licenses/cloud
+  image: /assets/heros/cloud.png
+  text: LicenseKit lets you validate licenses over the cloud.
+
+- title: Project
+  url:  https://github.com/LicenseKit/LicenseKit
+  image: /assets/heros/github.png
+  text: The project site has documentation, examples, demo apps etc.
+
+- title: Pricing
+  url:  /pricing
+  image: /assets/heros/pricing.png
+  text: LicenseKit is affordable both to indie developers and enterprises.

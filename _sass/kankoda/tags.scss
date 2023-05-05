@@ -14,17 +14,26 @@
   color: $tag-foreground;
 }
 
-.tag.releases {
+.tag.pro {
   color: black !important;
   background-color: #ffcc00;
+  border: solid 1px #ddaa00;
+}
+
+.tag.releases {
+  color: black !important;
+  background-color: white;
+  border: solid 1px #aaa;
 }
 
 .tag.swift {
   background-color: $swift-color;
+  border: solid 1px $swift-color;
 }
 
 .tag.swiftui {
   background-color: $swiftui-color;
+  border: solid 1px $swiftui-color;
 }
 
 section.tag-list {
