@@ -38,8 +38,8 @@ header_pages:
 
 footer_sitemap:
   - index.html
-  - pages/licenses.md
   - pages/blog.md
+  - pages/pricing.md
 
 collections_dir: collections
 
