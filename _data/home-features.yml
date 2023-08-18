@@ -1,17 +1,17 @@
 - title: About
   url: /about
   image: /assets/heros/icon.png
-  text: What are software licenses and how can LicenseKit help?
+  text: What is LicenseKit and how can it help you handle software licenses?
   
 - title: Code-based licenses
   url:  /licenses/code
   image: /assets/heros/code.png
-  text: LicenseKit lets you define licenses with source code.
+  text: LicenseKit lets you define licenses with closed-source code.
 
 - title: File-based licenses
   url:  /licenses/file
   image: /assets/heros/file.png
-  text: LicenseKit lets you define licenses in plain text files.
+  text: LicenseKit lets you define licenses with plain text files.
 
 - title: Cloud-based licenses
   url:  /licenses/cloud
@@ -21,7 +21,7 @@
 - title: Project
   url:  https://github.com/LicenseKit/LicenseKit
   image: /assets/heros/github.png
-  text: The project site has documentation, examples, demo apps etc.
+  text: The GitHub project has samples, documentation, demo apps, etc.
 
 - title: Pricing
   url:  /pricing
