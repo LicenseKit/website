@@ -12,7 +12,7 @@ description: These are the terms and conditions that apply when purchasing a Lic
 
 Licenses are valid for **one year** and **one product**. After your license expires, you must extend it to keep using LicenseKit. Expirations do not affect already shipped apps.
 
-Additional bundles and test licenses can be added to a license at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
+Additional bundle IDs and development licenses can be added at a **50% discount**. A development license can not be converted to a production license and must never be used in production.
 
 By signing up for a license, you acknowledge and approve of the following terms and conditions.
 

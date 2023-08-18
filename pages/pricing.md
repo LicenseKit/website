@@ -19,22 +19,24 @@ LicenseKit is free to use for up to 10 code- or file-based licenses. Just use th
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or [over e-mail](mailto:{{site.email}}?subject=LicenseKit%20License) using your preferred payment method. You can add your company information and VAT number when purchasing.
+Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. [Reach out](mailto:{{site.email}}?subject=LicenseKit%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
+
+The tiers above are aimed at indie developers, startups and small businesses. For enterprises and organizations with more than $1M USD in annual proceeds, please [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
 
 
 ## License terms
 
 Licenses are valid for **one year** and **one product**. After your license expires, you must extend it to keep using LicenseKit. Expirations do not affect already shipped apps.
 
-Additional bundles and test licenses can be added to a license at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
+Additional bundle IDs and development licenses can be added at a **50% discount**. A development license can not be converted to a production license and must never be used in production.
 
-By signing up for a license, you acknowledge and approve the information and terms listed on [this page](/licenses/terms-and-conditions).
+By signing up for a license, you acknowledge and approve the info and terms listed on [this page](/licenses/terms-and-conditions).
 
 
 ## License activation
 
-You will receive a welcome email with a license agreement when your license has been activated, typically **within 48h**. The license period starts when the license is activated, not at the time of purchase.
+After purchasing a license, you will receive a welcome e-mail with your license key once the license has been activated, typically **within 48h**.
 
-If we are unable to activate your license within 48 hours after purchase, we will try to get in touch with you regarding the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
+If we are unable to activate your license within this time, we will get in touch with you to explain the delay. You are free to refund your purchase at any time before your license has been activated.
 
-<!--If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started.-->
+The license period starts when the license is activated, not at the time of purchase. This means that the time it takes to activate your license doesn’t affect the time you’ll have to use it.

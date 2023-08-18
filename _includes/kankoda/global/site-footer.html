@@ -9,7 +9,39 @@
       
       <div class="column">
         <p>Site</p>
-        {% include kankoda/global/site-footer-links.html paths=site.footer_sitemap %}
+        {%- for path in site.footer_sitemap -%}
+          {%- assign page = pages | where: "path", path | first -%}
+          {%- if page.title -%}
+          <a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {%- elsif page.name -%}
+          <a href="{{ page.url | relative_url }}">{{ page.name | escape }}</a>
+          {%- else -%}
+          {%- assign values = path | split: "|" -%}
+          <a href="{{values | last}}">
+            {{values | first}}
+          </a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      
+      <div class="column">
+        <p>Social</p>
+        {% if site.twitter_url %}
+        <a href="{{site.twitter_url}}">Twitter</a>
+        {% endif %}
+        {% if site.mastodon_url %}
+        <a href="{{site.mastodon_url}}">Mastodon</a>
+        {% endif %}
+        {% if site.instagram_url %}
+        <a href="{{site.instagram_url}}">Instagram</a>
+        {% endif %}
+        {% if site.linkedin_url %}
+        <a href="{{site.linkedin_url}}">LinkedIn</a>
+        {% endif %}
+        {% if site.rss_url %}
+        <a href="{{site.rss_url}}">RSS</a>
+        {% endif %}
+        <a href="mailto:{{site.email}}">E-mail</a>
       </div>
       
       {% if site.footer_extra_title %}
@@ -35,34 +67,12 @@
         <a href="{{ site.documentation_url }}">Documentation</a>
       </div>
       {% endif %}
-      
-      <div class="column">
-        <p>Social</p>
-        {% if site.twitter_url %}
-        <a href="{{site.twitter_url}}">Twitter</a>
-        {% endif %}
-        {% if site.mastodon_url %}
-        <a href="{{site.mastodon_url}}">Mastodon</a>
-        {% endif %}
-        {% if site.instagram_url %}
-        <a href="{{site.instagram_url}}">Instagram</a>
-        {% endif %}
-        {% if site.linkedin_url %}
-        <a href="{{site.linkedin_url}}">LinkedIn</a>
-        {% endif %}
-        {% if site.rss_url %}
-        <a href="{{site.rss_url}}">RSS</a>
-        {% endif %}
-        <a href="mailto:{{site.email}}">E-mail</a>
-      </div>
 
       <div class="column">
-        <p>Products</p>
+        <p>Kankoda</p>
+        <a href="https://kankoda.com">Website</a>
         <a href="https://keyboardkit.com">KeyboardKit</a>
-        <a href="https://keyboardkit.com/pro">KeyboardKit Pro</a>
         <a href="https://getlicensekit.com">LicenseKit</a>
-        <p></p>
-        <p>Apps</p>
         <a href="https://wally.app">Wally</a>
       </div>
 
