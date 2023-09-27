@@ -13,7 +13,7 @@ description: LicenseKit is free to start and affordable to scale for both indies
 ---
 
 
-LicenseKit is free for up to 10 code- or file-based licenses. Just use the license key **"FREE"** to use a trial version with a limited set of licenses. 
+LicenseKit is free for up to **5** code- or file-based licenses. Just use the license key **"FREE"** to use the trial version and upgrade to a paid plan once you need more licenses or additional functionality.
 
 Visit the [project site]({{site.github_url}}) and see the [online documentation]({{site.documentation_url}}) for more information.
 
@@ -26,17 +26,4 @@ Companies and organizations with over $1M in annual revenue can [reach out](mail
 
 ## License terms
 
-Licenses are valid for **one year** and **one product**. After your license expires, you must extend it to keep using LicenseKit. Expirations do not affect already shipped apps.
-
-Additional products and test/development licenses can be added to a license at a **50% discount** per add-on. Development licenses must never be used in production.
-
-By signing up for a license, you acknowledge and approve the [LicenseKit Terms & Conditions](/licenses/terms-and-conditions).
-
-
-## License activation
-
-After purchasing a license, you will receive a welcome e-mail with your license key once the license has been activated, typically **within 48h**.
-
-If we are unable to activate your license within this time, we will get in touch with you to explain the delay. You are free to refund your purchase at any time before your license has been activated.
-
-The license period starts when the license is activated, not at the time of purchase. This means that the time it takes to activate your license doesn’t affect the time you’ll have to use it.
+By purchasing a LicenseKit license, you acknowledge and approve the [license terms & conditions](/licenses/terms-and-conditions).
