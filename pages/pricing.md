@@ -9,28 +9,28 @@ hero-title: Pricing
 
 redirect_from: /licenses
 
-description: LicenseKit is free to start and affordable to scale for both indies, startups and enterprises.
+description: LicenseKit is free to start and affordable to scale for both indies, startups and businesses.
 ---
 
 
-# License Tiers
+LicenseKit is free for up to 10 code- or file-based licenses. Just use the license key **"FREE"** to use a trial version with a limited set of licenses. 
 
-LicenseKit is free to use for up to 10 code- or file-based licenses. Just use the license key **"FREE"** to use a trial version with a limited set of licenses. You can then choose from three tiers:
+Visit the [project site]({{site.github_url}}) and see the [online documentation]({{site.documentation_url}}) for more information.
 
 {% include grids/licenses.html %}
 
 Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. [Reach out](mailto:{{site.email}}?subject=LicenseKit%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
 
-The tiers above are aimed at indie developers, startups and small businesses. For enterprises and organizations with more than $1M USD in annual proceeds, please [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
+Companies and organizations with over $1M in annual revenue can [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
 
 
 ## License terms
 
 Licenses are valid for **one year** and **one product**. After your license expires, you must extend it to keep using LicenseKit. Expirations do not affect already shipped apps.
 
-Additional bundle IDs and development licenses can be added at a **50% discount**. A development license can not be converted to a production license and must never be used in production.
+Additional products and test/development licenses can be added to a license at a **50% discount** per add-on. Development licenses must never be used in production.
 
-By signing up for a license, you acknowledge and approve the info and terms listed on [this page](/licenses/terms-and-conditions).
+By signing up for a license, you acknowledge and approve the [LicenseKit Terms & Conditions](/licenses/terms-and-conditions).
 
 
 ## License activation

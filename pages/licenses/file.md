@@ -9,7 +9,11 @@ hero: /assets/heros/file.png
 description: LicenseKit lets you define licenses in plain text files.
 ---
 
-Plain text files are a great alternative if you want to export data from a license system and bundle them as csv files together with your source code.
+File-based licenses let you bundle license files from another license system with your product. The licenses are compiled into the binary and can be validated even when offline.
 
-LicenseKit will parse the text file and allow you to map each line to a LicenseKit license, with support for customer information, tier, activation and expiration date, supported platforms, included features, and much more. You can also define completely custom fields if you need to.
+LicenseKit licenses lets you define customer information and license information like tier, activation and expiration date, supported platforms, included features, and much more.
+
+File-based licenses require new versions of your software to add and remove licenses and update the information of already released licenses. 
+
+You can choose if a license should expire on its expiration date, or if you want your customer to be able to keep using it in all versions it is active in.
 

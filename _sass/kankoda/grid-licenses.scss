@@ -9,7 +9,27 @@
 
   padding: 30px 0;
 
+  hr {   // !!!
+    border:none !important;
+    height: 50px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-bottom: solid 1px #00000033 !important;
+    box-shadow: 0 20px 20px -20px #00000088 !important;
+    margin: -50px auto 10px !important; 
+  }
+
+  .grid.footer {   // !!!
+    background-color: transparent;
+  }
+
+  .table-section-header {
+    background-color: white;   // !!!
+  }
+
   .grid {
+    background-color: white;   // !!!
+
     grid-row-gap: 10px;
     grid-column-gap: 5px;
     grid-template-columns: repeat(4, 1fr);
@@ -18,6 +38,7 @@
       justify-content: left;
       font-size: small;
       font-weight: bold;
+      margin-left: 10px;
     }
 
     > div {
@@ -110,8 +131,8 @@
     font-weight: bold;
   }
 
-  .even, .even + .grid {
-    background-color: #f7f7f7;
+  .odd, .odd + .grid {   // !!!
+    background-color: #E2EAF2;
   }
 }
 

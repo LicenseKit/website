@@ -39,4 +39,4 @@ LicenseKit is easily added to your project using the Swift Package Manager, or b
 
 LicenseKit is developed by [Kankoda](https://kankoda.com) in lovely [Stockholm, Sweden]({{page.stockholm}}). 
 
-We are experts in open-source and close-source software, and apps in general, so don't hesitate to [reach out](mailto:{{site.email}}) if you need paid support or want to hire us to help out with your apps and software. We do hour-based as well as longer projects.
+We are experts in open-source and close-source software, and apps in general, so don't hesitate to [reach out](mailto:{{site.email}}) if you need paid support or want to hire us to help out with your apps and software.

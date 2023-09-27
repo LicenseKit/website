@@ -6,7 +6,7 @@
 - title: Code-based licenses
   url:  /licenses/code
   image: /assets/heros/code.png
-  text: LicenseKit lets you define licenses with closed-source code.
+  text: LicenseKit lets you define licenses with source code.
 
 - title: File-based licenses
   url:  /licenses/file
@@ -18,12 +18,12 @@
   image: /assets/heros/cloud.png
   text: LicenseKit lets you validate licenses over the cloud.
 
-- title: Project
-  url:  https://github.com/LicenseKit/LicenseKit
-  image: /assets/heros/github.png
-  text: The GitHub project has samples, documentation, demo apps, etc.
-
 - title: Pricing
   url:  /pricing
   image: /assets/heros/pricing.png
   text: LicenseKit is affordable both to indie developers and enterprises.
+
+- title: Project
+  url:  https://github.com/LicenseKit/LicenseKit
+  image: /assets/heros/github.png
+  text: The GitHub project has samples, documentation, demo apps, etc.

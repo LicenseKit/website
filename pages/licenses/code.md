@@ -9,8 +9,11 @@ hero: /assets/heros/code.png
 description: LicenseKit lets you define licenses with code.
 ---
 
+Code-based licenses is a great alternative when you want to bundle licenses with your product. The license information is compiled into the binary and can be validated even when offline.
 
-Code-based licenses are a great alternative to bundle your licenses within your software's source code. The license information is compiled together with the source code.
+LicenseKit licenses lets you define customer information and license information like tier, activation and expiration date, supported platforms, included features, and much more.
 
-LicenseKit licenses lets you define customer information and many license properties like tier, activation and expiration date, supported platforms, included features, and much more. You can also define completely custom fields if you need to.
+Code-based licenses require new versions of your software to add and remove licenses and update the information of already released licenses. 
+
+You can choose if a license should expire on its expiration date, or if you want your customer to be able to keep using it in all versions it is active in.
 
