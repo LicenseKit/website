@@ -1,6 +1,5 @@
 .site-header {
 
-
   min-height: 0px;
 	border: 0 !important;
   padding: 15px 0;
@@ -33,6 +32,10 @@
   
   .site-header {
       background-color: $site-background;
+      
+      .row {
+        min-height: 40px;
+      }
   }
 
   .site-header + .page-content {
