@@ -15,7 +15,7 @@ description: LicenseKit is free to start and affordable to scale for both indies
 
 LicenseKit is free for up to **5** code- or file-based licenses. Just use the license key **"FREE"** to use the free plan. Upgrade to a paid plan once you need more licenses or additional functionality.
 
-Visit the [project site]({{site.github_url}}) and see the [online documentation]({{site.documentation_url}}) for more information.
+Visit the [project site]({{site.github_url}}) and see the [online documentation]({{site.documentation_url}}) for more information, demo apps, etc.
 
 {% include grids/licenses.html %}
 

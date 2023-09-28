@@ -5,12 +5,14 @@ layout: page
 permalink: /licenses/terms-and-conditions
 
 description: These are the terms and conditions that apply when purchasing a LicenseKit license.
+
+product: LicenseKit
 ---
 
 
 # Terms & Conditions
 
-These terms & conditions apply to the LicenseKit SDK (hereby referred to as "the Product").
+These terms & conditions apply to the {{page.product}} SDK (hereby referred to as "the Product").
 
 
 ## License Details
@@ -34,21 +36,35 @@ The license period starts when the license is activated, not at the time of purc
 Please reach out if you're considering upgrading your license or want to enable some of the above mentioned add-ons. We'll find a tailored upgrade plan that suits you.
 
 
-## Refunds
+## Monthly Plan
 
-You are free to refund your purchase at any time before your license has been activated. After the license has been activated, it can not be refunded.
+The monthly subscription plan is a **yearly subscription**. By signing up for this plan, you commit to paying the monthly license fee for at least a full year.
+
+Failing to pay any monthly payment will suspend your license until all overdue payments have been paid, with an additional 10% re-activation fee.
 
 
 ## Technical Information
 
-LicenseKit targets the current OS versions and two major versions back (one major version for macOS). Support for older OS versions will only be removed in a major version bump and will be communicated in advance.
+The Product targets the current OS version and two major versions back (one for macOS). Support for older OS versions will only be removed in a major version bump.
 
-LicenseKit is built with the latest version of Xcode, but supports on-demand builds for the last major version up to three months after a new major version is released. After that, you must use the latest major version of Xcode.
+The Product is built with the latest version of Xcode, but offers on-demand builds for the previous major version up to three months after the latest major version was released. 
+
+
+## Feature Disclaimer
+
+Some Product features use technologies that may stop working in any future platform (iOS, iPadOS, macOS, tvOS, watchOS, etc.) update.
+
+Features that stop working due to such platform changes may be removed without replacement or compensation, since the required platform capabilities may no longer be available.
+
+
+## Refunds
+
+You can refund your purchase at any time before your license has been activated. You can't refund your purchase after your license has been activated.
 
 
 ## Closed Source License Agreement
 
-This part of the agreement applies to the LicenseKit SDK (hereby referred to as "the Software").
+This license agreement applies to the {{page.product}} SDK (hereby referred to as "the Software").
 
 The Software and any associated software, documentation and resources  must only be used with a valid license key and a prior written agreement between the licenser and the licensee.
 
