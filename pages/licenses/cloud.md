@@ -1,6 +1,6 @@
 ---
 id: cloud
-title: Cloud-based Licenses
+title: API/Cloud-based Licenses
 layout: page
 permalink: /licenses/cloud
 
