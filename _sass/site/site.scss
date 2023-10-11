@@ -41,3 +41,11 @@
         margin-bottom: 130px;
     }
 }
+
+  
+@media (max-width: 500px) {
+
+  .grid.integrations {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

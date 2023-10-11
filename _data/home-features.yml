@@ -4,8 +4,8 @@
   text: What is LicenseKit and how can it help you handle licenses?
   
 - title: Binary licenses
-  url:  /licenses/code
-  image: /assets/heros/code.png
+  url:  /licenses/binary
+  image: /assets/heros/binary.png
   text: LicenseKit lets you define licenses with source code.
 
 - title: File-based licenses
@@ -14,9 +14,9 @@
   text: LicenseKit lets you define licenses with plain text files.
 
 - title: API/Cloud-based licenses
-  url:  /licenses/cloud
-  image: /assets/heros/cloud.png
-  text: LicenseKit can validate licenses with web API requests.
+  url:  /licenses/api
+  image: /assets/heros/api.png
+  text: LicenseKit can validate licenses with web requests.
 
 - title: Pricing
   url:  /pricing
