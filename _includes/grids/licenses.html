@@ -2,28 +2,31 @@
 
 <section class="license-table">
 
-  <div class="grid table-header">
-    <div class="feature"></div>
-    <div class="indie">
-      <h3>FREE</h3>
-      <p></p>
+  <div class="table-header-container">
+    <div class="grid table-header">
+      <div class="feature"></div>
+      <div class="indie">
+        <h3>FREE</h3>
+        <p></p>
+      </div>
+      <div class="basic">
+        <h3>Small</h3>
+        <p>$99 /year</p>
+      </div>
+      <div class="silver">
+        <h3>Medium</h3>
+        <p>$499 /year</p>
+      </div>
+      <div class="gold">
+        <h3>Large</h3>
+        <p>$999 /year</p>
+      </div>
     </div>
-    <div class="indie">
-      <h3>Indie</h3>
-      <p>$99 / year</p>
-    </div>
-    <div class="startup">
-      <h3>Startup</h3>
-      <p>$1,000 / year</p>
-    </div>
-    <div class="business">
-      <h3>Business</h3>
-      <p>$5,000 / year</p>
-    </div>
+
+    <hr style="box-shadow: none !important" />
   </div>
 
-  {% include kankoda/licenses/row.html row=01 feature="Max people" columns="-,1,5,Unlimited" title="LicenseKit lets you define licenses with code." url="licenses/code" %}
-  {% include kankoda/licenses/row.html row=02 feature="Max annual proceeds" columns="-,$100k,$500k,$1M" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
+  {% include kankoda/licenses/row.html row=01 feature="Max annual proceeds" columns="-,$10k,$100k,$1M" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
 
   <hr />
 
@@ -44,7 +47,7 @@
 
   <div class="grid footer">
     <div class="feature"></div>
-    <div></div>
+    <div>&nbsp;</div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-indie" %}</div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-startup" %}</div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-business" %}</div>

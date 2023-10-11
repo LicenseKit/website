@@ -1,11 +1,4 @@
-/*
-  By default, this table supports a feature
-  column and three tier columns (4 columns).
-  You can adjust this on each site if there
-  are more than 3 tiers.
- */
-
- .license-table {
+.license-table {
 
   padding: 30px 0;
 
@@ -172,11 +165,16 @@
 
   .license-table {
 
-    h3.regular { display: none !important; }
-    h3.compact { display: block !important; }
-
     .table-header {
       font-size: 12px;
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      p {
+        font-size: 1.3em !important;
+      }
     }
   }
 }
