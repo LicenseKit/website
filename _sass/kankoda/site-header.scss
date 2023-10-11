@@ -6,6 +6,7 @@
 
   .row {
     align-items: center;
+    min-height: 40px;
   }
 
   .logo img {
@@ -25,20 +26,5 @@
   .column:nth-of-type(2) {
     flex-basis: 90%;
     text-align: right;
-  }
-}
-
-.layout-no-hero {
-  
-  .site-header {
-      background-color: $site-background;
-      
-      .row {
-        min-height: 40px;
-      }
-  }
-
-  .site-header + .page-content {
-      padding-top: 30px;
   }
 }

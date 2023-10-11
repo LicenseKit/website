@@ -5,6 +5,10 @@
   <div class="grid table-header">
     <div class="feature"></div>
     <div class="indie">
+      <h3>FREE</h3>
+      <p></p>
+    </div>
+    <div class="indie">
       <h3>Indie</h3>
       <p>$99 / year</p>
     </div>
@@ -18,26 +22,29 @@
     </div>
   </div>
 
-  {% include kankoda/licenses/row.html row=01 feature="Max people" columns="1,5,Unlimited" title="LicenseKit lets you define licenses with code." url="licenses/code" %}
-  {% include kankoda/licenses/row.html row=02 feature="Max annual revenue" columns="$100k,$500k,$1M" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
+  {% include kankoda/licenses/row.html row=01 feature="Max people" columns="-,1,5,Unlimited" title="LicenseKit lets you define licenses with code." url="licenses/code" %}
+  {% include kankoda/licenses/row.html row=02 feature="Max annual proceeds" columns="-,$100k,$500k,$1M" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
 
   <hr />
 
-  {% include kankoda/licenses/row.html row=01 feature="Code-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses with code." url="licenses/code" %}
-  {% include kankoda/licenses/row.html row=02 feature="File-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
-  {% include kankoda/licenses/row.html row=03 feature="Cloud-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you validate licenses over the cloud." url="licenses/cloud" %}
-  {% include kankoda/licenses/row.html row=04 feature="Service Proxying" columns="✔,✔,✔" title="LicenseKit lets you combine multiple license services into a single service." url="licenses/proxying" %}
+  {% include kankoda/licenses/row.html row=01 feature="Code-based Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses with code." url="licenses/code" %}
+  {% include kankoda/licenses/row.html row=02 feature="File-based Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
+  {% include kankoda/licenses/row.html row=03 feature="Cloud-based Licenses" columns="-,✔,✔,✔" title="LicenseKit lets you validate licenses over the cloud." url="licenses/cloud" %}
+  {% include kankoda/licenses/row.html row=04 feature="Gumroad Integration" columns="-,✔,✔,✔" title="LicenseKit lets you integrate with Gumroad." url="licenses/proxying" %}
+  {% include kankoda/licenses/row.html row=05 feature="Service Proxying" columns="-,✔,✔,✔" title="LicenseKit lets you combine multiple license services into a single service." url="licenses/proxying" %}
+  {% include kankoda/licenses/row.html row=06 feature="License Caching" columns="-,✔,✔,✔" title="LicenseKit lets you cache the last successful license validation." url="licenses/proxying" %}
   
   <hr />
 
-  {% include kankoda/licenses/row.html row=01 feature="Onboarding call" columns="-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." %}
-  {% include kankoda/licenses/row.html row=02 feature="Monthly plan" columns="-,-,Optional" title="The optional monthly plan lets you spread out your cost over the year with a monthly subscription." %}
-  {% include kankoda/licenses/row.html row=03 feature="Support" columns="GitHub,Email,Priority" title="The higher tiers include priority support and can pay extra for dedicated support." %}
+  {% include kankoda/licenses/row.html row=01 feature="Onboarding call" columns="-,-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." %}
+  {% include kankoda/licenses/row.html row=02 feature="Monthly plan" columns="-,-,-,Optional" title="The optional monthly plan lets you spread out your cost over the year with a monthly subscription." %}
+  {% include kankoda/licenses/row.html row=03 feature="Support" columns="GitHub,GitHub,Email,Priority" title="The higher tiers include priority support and can pay extra for dedicated support." %}
   
   <hr />
 
   <div class="grid footer">
     <div class="feature"></div>
+    <div></div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-indie" %}</div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-startup" %}</div>
     <div>{% include kankoda/gumroad/button.html product="licensekit-business" %}</div>

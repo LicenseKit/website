@@ -21,6 +21,9 @@ Visit the [project site]({{site.github_url}}) and see the [online documentation]
 
 Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. [Reach out](mailto:{{site.email}}?subject=LicenseKit%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
 
+
+## Business model
+
 Companies and organizations with over $1M in annual revenue can [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
 
 

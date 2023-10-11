@@ -1,7 +1,7 @@
 - title: About
   url: /about
   image: /assets/heros/icon.png
-  text: What is LicenseKit and how can it help you handle software licenses?
+  text: What is LicenseKit and how can it help you handle licenses?
   
 - title: Binary licenses
   url:  /licenses/code
@@ -16,7 +16,7 @@
 - title: API/Cloud-based licenses
   url:  /licenses/cloud
   image: /assets/heros/cloud.png
-  text: LicenseKit lets you validate licenses over the cloud.
+  text: LicenseKit can validate licenses with web API requests.
 
 - title: Pricing
   url:  /pricing

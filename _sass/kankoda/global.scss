@@ -1,6 +1,7 @@
 html, body {
   color: $foreground;
-  background-color: $site-background;
+  background: linear-gradient($texture-overlay, $texture-overlay), $site-background;
+  background-size: $texture-size;
   width: 100%;
 }
 
@@ -31,4 +32,8 @@ blockquote {
 
 .page-content {
   background-color: $content-background;
+}
+
+.wrapper {
+  max-width: 900px;
 }
