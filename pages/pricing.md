@@ -19,7 +19,7 @@ Visit the [project site]({{site.github_url}}) and see the [online documentation]
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. Companies and organizations with over $1M in annual license proceeds can [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
+Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. Companies with over 10,000 licenses or $1M in annual license proceeds can [reach out](mailto:{{site.email}}?subject=LicenseKit%20License) for a custom plan.
 
 
 ## License terms

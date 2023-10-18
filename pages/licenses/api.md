@@ -1,6 +1,6 @@
 ---
 id: cloud
-title: API License Validation
+title: API/Cloud-based Licenses
 layout: page
 permalink: /licenses/api
 

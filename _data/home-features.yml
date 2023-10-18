@@ -3,27 +3,27 @@
   image: /assets/heros/icon.png
   text: What is LicenseKit and how can it help you handle licenses?
   
-- title: Binary licenses
+- title: Binary Licenses
   url:  /licenses/binary
   image: /assets/heros/binary.png
   text: LicenseKit lets you define licenses with source code.
 
-- title: File-based licenses
+- title: File-Based Licenses
   url:  /licenses/file
   image: /assets/heros/file.png
   text: LicenseKit lets you define licenses with plain text files.
 
-- title: API/Cloud-based licenses
+- title: API/Cloud-Based Licenses
   url:  /licenses/api
   image: /assets/heros/api.png
   text: LicenseKit can validate licenses with web requests.
+
+- title: License Caching
+  url:  /licenses/caching
+  image: /assets/heros/caching.png
+  text: LicenseKit can cache successful license validations.
 
 - title: Pricing
   url:  /pricing
   image: /assets/heros/pricing.png
   text: LicenseKit is affordable both to indie developers and enterprises.
-
-- title: Project
-  url:  https://github.com/LicenseKit/LicenseKit
-  image: /assets/heros/github.png
-  text: The GitHub project has samples, documentation, demo apps, etc.

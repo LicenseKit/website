@@ -54,9 +54,15 @@
       font-size: 1.1em;
     }
 
-    h3+p {
-      font-size: 0.9em;
-      font-weight: normal;
+    h3+div {
+      font-size: 1em;
+      font-weight: 600;
+
+      .subtitle {
+        font-size: smaller;
+        font-weight: normal;
+        opacity: 0.5;
+      }
     }
 
     .trial {
@@ -165,16 +171,11 @@
 
   .license-table {
 
+    h3.regular { display: none !important; }
+    h3.compact { display: block !important; }
+
     .table-header {
       font-size: 12px;
-
-      h3 {
-        font-size: 1.5em;
-      }
-
-      p {
-        font-size: 1.3em !important;
-      }
     }
   }
 }

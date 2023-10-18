@@ -1,9 +1,21 @@
-a.back-button:before {
-  content: "«";
+.back-button, .forward-button {
+  a {
+    font-weight: normal !important;
+    font-size: medium;
+  }
 }
 
-a.forward-button:after {
-  content: "»";
+.back-button {
+  a:before {
+    content: "«";
+  }
+}
+
+.forward-button {
+
+  a.forward-button:after {
+    content: "»";
+  }  
 }
 
 .social-button {
