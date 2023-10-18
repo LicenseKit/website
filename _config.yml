@@ -32,6 +32,7 @@ header_image_type: icon
 
 header_pages:
   - index.html
+  - pages/github.md
   - pages/blog.md
   - pages/pricing.md
 
