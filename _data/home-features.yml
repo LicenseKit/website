@@ -18,10 +18,20 @@
   image: /assets/heros/api.png
   text: LicenseKit can validate licenses with web requests.
 
+- title: Gumroad
+  url:  /licenses/gumroad
+  image: /assets/heros/gumroad.png
+  text: LicenseKit can integrate directly with Gumroad.
+
 - title: License Caching
   url:  /licenses/caching
   image: /assets/heros/caching.png
   text: LicenseKit can cache successful license validations.
+
+- title: Service Proxying
+  url:  /licenses/proxying
+  image: /assets/heros/proxying.png
+  text: LicenseKit can chain multiple services together.
 
 - title: Pricing
   url:  /pricing

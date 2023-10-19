@@ -19,20 +19,18 @@ LicenseKit is a Swift-based SDK that can be used to protect your software with c
 
 ## What are software licenses?
 
-If you want to distribute closed-source software, or an app for iOS or macOS that isn't purchased through the App Store, you can use commercial licenses to protect it from being used freely.
+If you want to distribute closed-source software, or an app that isn't sold through the App Store, you can use commercial licenses to protect it from being used freely.
 
 One way is to require users to enter a license key before they can use your software. For this to work, you need to be able to define and validate your licenses. This is where LicenseKit comes in.
 
 
 ## How does LicenseKit work?
 
-LicenseKit lets you define licenses with code or in plain text files, or validate license keys over the cloud, to integrate with any external service provider, like Gumroad or Lemon Squeezy.
+LicenseKit lets you define licenses with code or in plain text files, or validate licenses over the cloud, integrate with external service providers like Gumroad or Lemon Squeezy, etc.
 
-LicenseKit licenses can be restricted to only work on certain platforms, for certain applications or app extensions, etc., and can have custom expiration dates and expiration behavior. 
+LicenseKit licenses can be restricted to only work on certain platforms, in certain environment, for certain applications, etc. They can have custom expiration dates and behavior.
 
 LicenseKit licenses lets you define many properties, like customer information, tier, activation and expiration date, features, and much more. You can also use custom fields if needed.
-
-LicenseKit is easily added to your project using the Swift Package Manager, or by adding the pre-built framework file manually to your project.
 
 
 ## Who are we?
