@@ -5,42 +5,45 @@ layout: page
 permalink: /licenses/terms-and-conditions
 
 description: These are the terms and conditions that apply when purchasing a LicenseKit license.
-
-product: LicenseKit
 ---
 
 
 # Terms & Conditions
 
-These terms & conditions apply to the {{page.product}} SDK (hereby referred to as "the Product").
+These terms & conditions apply to the LicenseKit SDK (hereby referred to as "the Product").
 
 
 ## License Details
 
-Licenses are valid for **one year** and **one app**. After your license expires, you must extend it to keep using the Product. Expirations do not affect already shipped products.
+Licenses are valid for **one product**, as specified by the bundle ID you provide at the time of purchase.
 
-Additional products and development licenses can be added at a **50% discount** per addition. These development licenses must never be used in production.
+Expiration of a yearly license doesn't affect already shipped products and apps that use it. The license will still validate in production and the product/app will still work.
+
+Expiration of a monthly license *will* affect already shipped products. The license will stop working and the product will no longer be able to validate licenses.
+
+Additional bundle IDs can be added to a license at a **50% discount** per ID. This lets you use a license with more products, at a reduced price.
 
 
 ## License Activation
 
-After purchasing a license, you will receive a welcome e-mail with your license key once the license has been activated, typically within 48 hours.
+You can start using your license with LicenseKit immediately after puchase, using the license key that you will receive in your purchase confirmation.
 
-If we are unable to activate your license within this time, we will get in touch with you regarding the delay. You are free to refund your purchase at any time before your license has been activated.
 
-The license period starts when the license is activated, not at the time of purchase. This means that the time it takes to activate your license doesn’t affect the license validity period.
+## License Validation
+
+Monthly licenses require server validation. The result is cached to handle temporary connectivity loss, but your product will perform regular server validations.
+
+Yearly licenses will be added to the next version of LicenceKit, and can after that be validated without the need for server validation.
 
 
 ## License Upgrades
 
-Please reach out if you're considering upgrading your license or want to enable some of the above mentioned add-ons. We'll find a tailored upgrade plan that suits you.
+Please reach out if you're considering upgrading your license or want to enable some add-ons. We'll find a tailored upgrade plan that suits you.
 
 
 ## Monthly Plan
 
-The monthly subscription plan is a **yearly subscription**. By signing up for this plan, you commit to paying the monthly license fee for at least a full year.
-
-Failing to pay any monthly payment will suspend your license until all overdue payments have been paid, with an additional 10% re-activation fee.
+LicenseKit has a monthly payment plan that lets you pay as you go, instead of paying for a full year at once. There are however trade-offs with this plan, so [read this](/pricing/monthly-plan) carefully before you proceed.
 
 
 ## Technical Information
@@ -59,12 +62,18 @@ Features that stop working due to such platform changes may be removed without r
 
 ## Refunds
 
-You can refund your purchase at any time before your license has been activated. You can't refund your purchase after your license has been activated.
+You can stop a monthly subscription from renewing at any time. Your license will automatically expire after the last subscription date, at which license validation will stop working in your product.
+
+You can stop a yearly subscription from renewing at any time. Your license will automatically expire after the last subscription date. This will not affect already shipped apps.
+
+Limited refunds may be approved after a payment has been processed. The payment processing fees and cost for the used period will be deducted from the refunded amount.
+
+No refunds will be approved for a yearly license after it has been added to the LicenseKit binary, since itwill then always be active in that binary version.
 
 
 ## Closed Source License Agreement
 
-This license agreement applies to the {{page.product}} SDK (hereby referred to as "the Software").
+This license agreement applies to the LicenseKit SDK (hereby referred to as "the Software").
 
 The Software and any associated software, documentation and resources  must only be used with a valid license key and a prior written agreement between the licenser and the licensee.
 

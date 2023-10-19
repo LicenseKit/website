@@ -1,5 +1,5 @@
 ---
-id: pro-addons
+id: addons
 title: LicenseKit Add-ons
 layout: page
 permalink: /pricing/addons
