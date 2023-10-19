@@ -17,16 +17,19 @@ These terms & conditions apply to the LicenseKit SDK (hereby referred to as "the
 
 Licenses are valid for **one product**, as specified by the bundle ID you provide at the time of purchase.
 
-Expiration of a yearly license doesn't affect already shipped products and apps that use it. The license will still validate in production and the product/app will still work.
-
-Expiration of a monthly license *will* affect already shipped products. The license will stop working and the product will no longer be able to validate licenses.
-
 Additional bundle IDs can be added to a license at a **50% discount** per ID. This lets you use a license with more products, at a reduced price.
 
 
 ## License Activation
 
 You can start using your license with LicenseKit immediately after puchase, using the license key that you will receive in your purchase confirmation.
+
+
+## License Expiration
+
+Expiration of a yearly license doesn't affect already shipped products and apps that use it. The license will still validate in production and the product/app will still work.
+
+Expiration of a monthly license *will* affect already shipped products. The license will stop working and the product will no longer be able to validate licenses.
 
 
 ## License Validation
