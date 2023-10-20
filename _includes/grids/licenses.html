@@ -5,30 +5,38 @@
   <div class="table-header-container">
     <div class="grid table-header">
       <div class="feature"></div>
-      <div class="indie">
-        <h3>FREE</h3>
-        <p></p>
+      <div class="basic">
+        <a href="{{site.github_url}}">
+          <h3>FREE</h3>
+          <p></p>
+        </a>
       </div>
       <div class="basic">
-        <h3>Small</h3>
-        <div>
-          <p>$49 /month</p>
-          <p class="subtitle">(billed annually)</p>
-        </div>
+        <a href="{{site.gumroad_url}}">
+          <h3>Small</h3>
+          <div>
+              <p>$49 /month</p>
+              <p class="subtitle">(billed annually)</p>
+          </div>
+        </a>
       </div>
       <div class="silver">
-        <h3>Medium</h3>
-        <div>
-          <p>$149 /month</p>
-          <p class="subtitle">(billed annually)</p>
-        </div>
+        <a href="{{site.gumroad_url}}">
+          <h3>Medium</h3>
+          <div>
+            <p>$149 /month</p>
+            <p class="subtitle">(billed annually)</p>
+          </div>
+        </a>
       </div>
       <div class="gold">
-        <h3>Large</h3>
-        <div>
-          <p>$249 /month</p>
-          <p class="subtitle">(billed annually)</p>
-        </div>
+        <a href="{{site.gumroad_url}}">
+          <h3>Large</h3>
+          <div>
+            <p>$249 /month</p>
+            <p class="subtitle">(billed annually)</p>
+          </div>
+        </a>
       </div>
     </div>
 
@@ -67,7 +75,7 @@
 
   <div class="grid footer">
     <div class="feature"></div>
-    <div>&nbsp;</div>
+    <div><a href="{{site.github_url}}">Try it now</a></div>
     <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
     <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
     <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
