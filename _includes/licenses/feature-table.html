@@ -1,45 +1,11 @@
 {% include kankoda/gumroad/script.html %}
 
-<section class="license-table">
+<section class="license-table {{include.price}}">
 
   <div class="table-header-container">
     <div class="grid table-header">
-      <div class="feature"></div>
-      <div class="basic">
-        <a href="{{site.github_url}}">
-          <h3>FREE</h3>
-          <p></p>
-        </a>
-      </div>
-      <div class="basic">
-        <a href="{{site.gumroad_url}}">
-          <h3>Small</h3>
-          <div>
-              <p>$49 /month</p>
-              <p class="subtitle">(billed annually)</p>
-          </div>
-        </a>
-      </div>
-      <div class="silver">
-        <a href="{{site.gumroad_url}}">
-          <h3>Medium</h3>
-          <div>
-            <p>$149 /month</p>
-            <p class="subtitle">(billed annually)</p>
-          </div>
-        </a>
-      </div>
-      <div class="gold">
-        <a href="{{site.gumroad_url}}">
-          <h3>Large</h3>
-          <div>
-            <p>$249 /month</p>
-            <p class="subtitle">(billed annually)</p>
-          </div>
-        </a>
-      </div>
+      {% include kankoda/licenses/tiers.html tiers=include.tiers price=include.price %}
     </div>
-
     <hr style="box-shadow: none !important" />
   </div>
 
@@ -49,11 +15,6 @@
 
   {% include kankoda/licenses/row.html row=01 feature="Binary Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses with code." url="/licenses/binary" %}
   {% include kankoda/licenses/row.html row=02 feature="File-based Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="/licenses/file" %}
-  
-  <hr />
-
-  {% include kankoda/licenses/row.html row=01 feature="Free Trial" columns="-,✔,✔,✔" title="The monthly plan lets you pay as you go." url="/pricing/free-trial" %}
-  {% include kankoda/licenses/row.html row=02 feature="Monthly Plan" columns="-,✔,✔,✔" title="The monthly plan lets you pay as you go." url="/pricing/monthly-plan" %}
   
   <hr />
 
@@ -76,8 +37,8 @@
   <div class="grid footer">
     <div class="feature"></div>
     <div><a href="{{site.github_url}}">Try it!</a></div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url %}</div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
   </div>
 </section>
