@@ -9,13 +9,13 @@ hero-title: Pricing
 
 redirect_from: /licenses
 
-description: LicenseKit is free to start and affordable to scale for both indies, startups and businesses.
+description: LicenseKit is free to start and affordable to scale.
 ---
 
 {% include pricing-links.html %}
 
-{% include licenses/feature-table.html tiers=site.data.tiers price="yearly" %}
-{% include licenses/feature-table.html tiers=site.data.tiers price="monthly" %}
+{% include licenses/license-table.html tiers=site.data.tiers price="yearly" %}
+{% include licenses/license-table.html tiers=site.data.tiers price="monthly" %}
 
 LicenseKit is free for up to **10** code- or file-based licenses. Just use the license key **"FREE"** to use the free plan. Upgrade to a paid plan once you need more licenses or additional functionality.
 
