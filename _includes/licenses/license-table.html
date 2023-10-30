@@ -30,9 +30,14 @@
 
   <div class="grid footer">
     <div class="feature"></div>
-    <div><a href="{{site.github_url}}">Try it!</a></div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    {% for tier in include.tiers %}
+    <div>
+        {% if tier.monthly_price_year %}
+        <a href="{{site.gumroad_url}}" class="cta scale">
+          Sign Up
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
   </div>
 </section>

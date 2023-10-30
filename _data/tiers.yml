@@ -3,11 +3,14 @@
 - name: Basic
   monthly_price_year: 39
   monthly_price_month: 49
+  cta: Free Trial
 
 - name: Silver
   monthly_price_year: 119
   monthly_price_month: 149
+  cta: Free Trial
 
 - name: Gold
   monthly_price_year: 399
   monthly_price_month: 449
+  cta: Free Trial
