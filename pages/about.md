@@ -1,10 +1,11 @@
 ---
 id: about
-title: About LicenseKit
+title: About
 layout: page
 permalink: /about
 
 hero: /assets/heros/icon.png
+hero-title: About LicenseKit
 
 description: LicenseKit helps you protect your libraries and apps with commercial licenses.
 

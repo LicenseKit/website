@@ -1,9 +1,5 @@
-- name: FREE
-
 - name: Basic
-  monthly_price_year: 39
-  monthly_price_month: 49
-  cta: Free Trial
+  cta: Free
 
 - name: Silver
   monthly_price_year: 119

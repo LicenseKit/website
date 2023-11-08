@@ -1,8 +1,3 @@
-- title: About LicenseKit
-  url: /about
-  image: /assets/heros/icon.png
-  text: What is LicenseKit and how can it help you handle licenses?
-  
 - title: Binary Licenses
   url:  /licenses/binary
   image: /assets/heros/binary.png
@@ -32,8 +27,3 @@
   url:  /licenses/proxying
   image: /assets/heros/proxying.png
   text: LicenseKit can chain multiple services together.
-
-- title: Pricing
-  url:  /pricing
-  image: /assets/heros/pricing.png
-  text: LicenseKit is free to start using and affordable to scale.

@@ -31,14 +31,14 @@ header_image_type: icon
 
 header_pages:
   - index.html
-  - pages/github.md
-  - pages/blog.md
   - pages/pricing.md
+  - pages/blog.md
 
 footer_sitemap:
   - index.html
-  - pages/blog.md
+  - pages/about.md
   - pages/pricing.md
+  - pages/blog.md
 
 collections_dir: collections
 
