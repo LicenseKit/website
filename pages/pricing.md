@@ -24,4 +24,4 @@ Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. Compa
 
 ## License terms
 
-By purchasing a LicenseKit license, you acknowledge and approve the [license terms & conditions](/licenses/terms-and-conditions).
+By purchasing a LicenseKit license, you acknowledge and approve the [license terms & conditions](/terms-and-conditions).

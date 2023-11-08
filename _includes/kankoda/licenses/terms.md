@@ -1,6 +1,8 @@
 {% assign product = include.product %}
 
 
+# Terms & Conditions
+
 These terms and conditions apply to the [{{ product }} SDK]({{include.url}}). Read carefully before purchasing a license.
 
 ## License Details
