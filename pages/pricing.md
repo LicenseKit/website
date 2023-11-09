@@ -9,7 +9,7 @@ hero-title: Pricing
 
 redirect_from: /licenses
 
-description: LicenseKit is free to start and affordable to scale.
+description: LicenseKit is free to start using and affordable to scale.
 ---
 
 {% include pricing-links.html %}
