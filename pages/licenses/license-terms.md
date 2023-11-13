@@ -1,11 +1,8 @@
 ---
 title: LicenseKit License Terms
-layout: page
 permalink: /terms-and-conditions
 redirect_from: /terms
-
-description: These terms and conditions apply to the LicenseKit SDK.
+redirect_to: https://kankoda.com/licensekit/terms
 ---
 
-
-{% include kankoda/licenses/terms.md product="LicenseKit" url="/" %}
+This page has moved.
